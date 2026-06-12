@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #fffaf7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 18% 8%, rgba(255, 93, 118, 0.1), transparent 24rem),
+    radial-gradient(circle at 86% 16%, rgba(255, 213, 219, 0.65), transparent 23rem),
+    linear-gradient(180deg, #fffaf7 0%, #fff8f6 46%, #fff3f6 100%);
+  color: #171717;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.paint-underline {
+  background: linear-gradient(180deg, transparent 60%, #ffe47e 60%);
+  border-radius: 0.25rem;
+}
+
+.safe-bottom {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+.xhs-shell {
+  border: 1px solid rgba(255, 181, 193, 0.45);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 24px 70px rgba(244, 63, 114, 0.11);
+}
+
+.xhs-cta {
+  background: linear-gradient(135deg, #ff6a78 0%, #ff4668 100%);
+  box-shadow: 0 10px 0 rgba(255, 77, 102, 0.16), 0 18px 34px rgba(244, 63, 114, 0.2);
+}
+
+.xhs-section-title {
+  color: #111;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.xhs-pink-band {
+  background: linear-gradient(90deg, rgba(255, 241, 243, 0.92), rgba(255, 248, 245, 0.96), rgba(255, 241, 246, 0.92));
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .no-print,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  main {
+    background: #fff !important;
+    padding: 0 !important;
+  }
+
+  section,
+  article {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .shadow-soft,
+  .xhs-shell {
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,1367 @@
+{
+  "scale": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不太同意"
+    },
+    {
+      "value": 3,
+      "label": "说不清"
+    },
+    {
+      "value": 4,
+      "label": "比较同意"
+    },
+    {
+      "value": 5,
+      "label": "非常同意"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "income_drive",
+      "name": "收入目标感",
+      "order": 1
+    },
+    {
+      "id": "growth_mode",
+      "name": "成长模式",
+      "order": 2
+    },
+    {
+      "id": "recognition_source",
+      "name": "认同感来源",
+      "order": 3
+    },
+    {
+      "id": "social_energy",
+      "name": "社交消耗度",
+      "order": 4
+    },
+    {
+      "id": "boundary_clarity",
+      "name": "边界清晰度",
+      "order": 5
+    },
+    {
+      "id": "recognition_logic",
+      "name": "认同逻辑",
+      "order": 6
+    },
+    {
+      "id": "pressure_rhythm",
+      "name": "压力节奏",
+      "order": 7
+    },
+    {
+      "id": "power_execution",
+      "name": "权力与执行",
+      "order": 8
+    },
+    {
+      "id": "thinking_granularity",
+      "name": "思维颗粒度",
+      "order": 9
+    },
+    {
+      "id": "information_processing",
+      "name": "信息处理",
+      "order": 10
+    },
+    {
+      "id": "drive_logic",
+      "name": "驱动逻辑",
+      "order": 11
+    },
+    {
+      "id": "feedback_cycle",
+      "name": "反馈周期",
+      "order": 12
+    },
+    {
+      "id": "environment_dependence",
+      "name": "环境空间依赖",
+      "order": 13
+    },
+    {
+      "id": "moral_threshold",
+      "name": "道德阈值",
+      "order": 14
+    }
+  ],
+  "questions": [
+    {
+      "id": "income_drive_1",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "如果两份工作内容完全一样，我绝对会选薪水更高那一份",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_2",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "为了获得比同龄人高出一倍的收入，我愿意接受全年无休的高强度工作",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_3",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "我认为职场中的“情怀”和“成就感”完全可以抵消一部分薪水的不足",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_4",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "场景：你目前月薪 2 万，生活安稳。现在有一个月薪翻倍到 4 万的机会，但工作地点和合同保障都更不稳定。为了这 100% 的涨幅，你愿意承担这份风险吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_5",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "我在买东西时，价格通常是我做决策的第一考量因素",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_6",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "如果公司宣布未来三年不涨薪但工作更轻松，我会立刻考虑离职",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_7",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "财富自由是我工作的唯一终极目标",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_8",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "场景：好友创业急需合伙人，不给工资只给股份。你看好这个赛道，但加入后存款只够支撑半年生活。你愿意为了可能翻身的机会承担这类财务风险吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_9",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "相比于“可能会有的提成”，我更在意合同里写死的“固定底薪”",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "income_drive_10",
+      "dimension": "income_drive",
+      "dimensionName": "收入目标感",
+      "text": "场景：直属上司承诺，只要你完成一个极其艰巨的任务，年底会给你一笔相当于半年薪水的奖金。但任务需要利用公司流程的灰色地带，在不违法但违规的前提下，你愿意为了这笔钱冒险吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_1",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "我不怕犯错，我更怕自己停止进步",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_2",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "即使公司不报销，我也愿意自费参加昂贵的专业技能培训。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_3",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "我更喜欢把一个已经掌握的工具用到极致，而不是每天换新工具。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_4",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "场景：你已经是行业认可的专家，但新技术突然淘汰了你的核心技能。你愿意放下原有光环，像初学者一样重新学习一套底层逻辑吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_5",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "频繁学习新东西会分散我的精力，让我难以在专业上达到顶尖水平。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_6",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "哪怕这份工作很累，只要它能让我每天接触到行业最前沿的信息，我也能忍受。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_7",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "我希望能在一个岗位上做一辈子，只要环境稳定",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_8",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "场景：公司派你负责一个毫无头绪的研发项目，没有导师，也没有过往资料，只能靠阅读资料和反复试错找出路。这种在不确定中摸索的成长方式，会让你兴奋多过害怕吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_9",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "面对没有标准答案的新任务，你会更愿意边摸索边学习，而不是等别人给出完整路径吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_10",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "在选择公司时，我更看重它的培训体系而非入职薪水。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "growth_mode_11",
+      "dimension": "growth_mode",
+      "dimensionName": "成长模式",
+      "text": "场景：年度 KPI 已经提前完成，剩下的时间本可以休息或做副业。你更愿意主动接下一个更难、但不计入绩效的跨部门项目来锻炼自己吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_1",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "如果我做出了巨大贡献却没人知道，我会感到非常失落。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_2",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "相比于奖金，我更希望老板在全员大群里点名表扬我的成果。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_3",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "我在乎工作的实质影响，不在乎我的名片上印的是什么头衔。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_4",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "场景：一边是名企高头衔但影响力有限，另一边是小团队普通头衔但能直接参与关键决策。即使身边人更看重名企光环，你仍然愿意选择后者吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_5",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "工作就是为了赚钱，别人怎么看我根本不重要。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_6",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "如果我的专业建议被公司采纳但署名是我的领导，我会感到极度愤怒。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_7",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "我希望我的工作是受人尊敬的，甚至是带点“光环”的。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_8",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "场景：你的工作取得了成功，但外部媒体把功劳归给了别人。公司高层私下认可你，却拒绝公开澄清。面对这种只有内部认可、没有外部名声的结果，你能平静接受吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_9",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "即使我一个人在荒岛上工作，只要事情有意义，我也不需要任何人的赞赏。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_source_10",
+      "dimension": "recognition_source",
+      "dimensionName": "认同感来源",
+      "text": "场景：有个职位薪水高出市场价 50%，但行业声誉不佳，外界容易把它看成“收割型”生意。你会因为名声不好而拒绝这份高薪机会吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_1",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "哪怕工作很累，下班后和朋友聚会依然能让我感到放松",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_2",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "如果我的工位被安排在人来人往的过道旁，我会感到无法集中注意力",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_3",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "我宁愿多写一份报告，也不愿意去给客户打 10 分钟的回访电话",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_4",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "场景：部门举办大型行业沙龙，你要现场协调突发状况，还要在茶歇主动和陌生嘉宾破冰。这样的高密度社交环境会明显消耗你吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_5",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "我享受在多方意见冲突中担任“调停者”或“谈判代表”的角色。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_6",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "如果一天内有超过 3 个跨部门会议，我会觉得今天什么正经活都没干。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_7",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "戴上耳机就是我与世界隔绝的唯一信号。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_8",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "场景：一个职位薪水高 20%，但每天都要大量商务应酬，甚至占用周末。你愿意为了这 20% 的涨幅承受这种高频社交吗？",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_9",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "我更倾向于在独立办公室工作，而非开放式办公区。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "social_energy_10",
+      "dimension": "social_energy",
+      "dimensionName": "社交消耗度",
+      "text": "面对突如其来的当面交谈，我的第一反应通常是躲避或感到局促。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_1",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "我会严格区分工作微信和生活微信。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_2",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "哪怕是周末，如果看到老板在群里艾特我，我也会在 5 分钟内回复。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_3",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "工作就是工作，不应该掺杂太多的私人感情和业余时间。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_4",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "场景：你正在休假，公司出现一个需要你协助说明的紧急事件，但并非生死存亡。老板说“耽误你 10 分钟”。你会立刻远程处理吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_5",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "我认为和同事成为真正的、无话不说的亲密好友是一件很有必要的事。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_6",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "下班后如果还要参加非强制性的公司团建，我会感到私人领地被侵犯。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_7",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "我能接受工作和生活完全混在一起（即：全天候待命）。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_8",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "场景：一份高薪工作要求你 7×24 小时开机待命，虽然大多数时候没事，但必须随叫随到。你能平静接受这种持续被工作牵着的状态吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_9",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "旅游时哪怕没信号，我也会担心错过工作消息。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "boundary_clarity_10",
+      "dimension": "boundary_clarity",
+      "dimensionName": "边界清晰度",
+      "text": "在家里处理公事会让我感到生活品质大幅下降。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_1",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "只要事情做对了，哪怕过程中得罪了所有人我也能睡得着。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_2",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "如果我的直属领导是个很有能力但性格极其暴躁、从不给下属面子的人，我绝对无法忍受。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_3",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "我在工作中极其敏感，能轻易察觉到同事对我的细微负面评价。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_4",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "场景：团队陷入僵局。如果坚持客观数据，项目会成功，但会让多年老搭档当众难堪。你会为了照顾关系而修饰数据、给对方留台阶吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_5",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "在工作中，我不需要任何人拍马屁，我只需要最真实的反馈。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_6",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "完成一个项目后，比起最终的奖金，同事们的真诚感谢更让我有成就感。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_7",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "职场里没有真朋友，只有利益交换。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_8",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "场景：你所在的公司管理风格非常“冷血”，只看 KPI，没有任何情感关怀。只要你达不到标，公司会毫不留情地处理你，哪怕你曾经立过功。这种“纯契约式”环境会让你感到崩溃吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_9",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "如果老板批评我的方案，我会觉得他是在针对我这个人。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "recognition_logic_10",
+      "dimension": "recognition_logic",
+      "dimensionName": "认同逻辑",
+      "text": "面对客户的无理取闹，我的情绪波动会大到影响接下来的工作。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_1",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "我特别讨厌最后一刻才交活，哪怕事情很简单。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_2",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "我享受在最后期限前疯狂赶工（冲刺）带来的那种肾上腺素飙升感。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_3",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "如果每天的工作量不平均，我会感到心理失衡。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_4",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "场景：一个项目平稳推进三个月，另一个项目前两个月很清闲、最后两周需要每天熬夜极限攻关。你更愿意选择后者这种集中冲刺模式吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_5",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "只要给够休息时间，我可以接受连续一周每天只睡 4 小时的极端高压。",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_6",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "计划外的突发事件（如临时插进来的会议）会让我感到极度愤怒。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_7",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "越忙的时候，我的大脑反应速度反而越快。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_8",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "场景：公司正处于危机时刻，你每天面对的是处理不完的投诉和随时可能爆发的公关危机，且这种状态预计会持续一年。这种“持续中度高压”是否比“短时极度高压”更让你崩溃？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_9",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "如果这一天没有什么必须完成的任务，我会感到空虚和不安。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "pressure_rhythm_10",
+      "dimension": "pressure_rhythm",
+      "dimensionName": "压力节奏",
+      "text": "面对多线并行的任务（Multi-tasking），我通常会感到手忙脚乱而非游刃有余。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_1",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "如果领导不给我明确的指示，我会感到无从下手。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_2",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "相比于“制定规则”，我更擅长在现有的规则下把事情做到极致。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_3",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "当团队陷入僵局时，我即使没有被授权，也会习惯性地站出来拍板。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_4",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "场景：你负责一个新城市业务，总部只给“业绩翻倍”的目标，没有案例和流程，但给你财务和人事决定权。面对这种高授权高责任任务，你会兴奋多过压力吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_5",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "我认为一个好的执行者，不应该对上级的指令产生过多的质疑。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_6",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "我喜欢那种“只要我说了就算”的工作环境。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_7",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "承担最终责任让我感到沉重且焦虑。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_8",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "场景：项目出现紧急事故，此时联系不上领导。如果按照规章制度走，损失将扩大；如果违规操作，可能挽回损失但也可能直接被开除。你会选择先斩后奏，强行推进自己的方案吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_9",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "我更倾向于担任“副手”或“顾问”，而不是“第一负责人”。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "power_execution_10",
+      "dimension": "power_execution",
+      "dimensionName": "权力与执行",
+      "text": "面对模糊的指令，我会反复向上级确认细节，直到完全明确。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_1",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "看到文档里有一个错别字或格式不对，我会如鲠在喉。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_2",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "我认为“抓大放小”是平庸管理者的借口，真正的专业源于细节。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_3",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "我在描述一件事时，通常只说结论，不喜欢描述细节。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_4",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "场景：你审核一份金额很高的合同，离提交只剩 1 小时，却发现附件里一个小公式可能有漏洞。即使要重新核对大量数据，你也会坚持查清楚吗？",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_5",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "只要大方向正确，细枝末节的失误完全可以忽略不计。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_6",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "我非常享受整理杂乱无章的原始数据并将其归类的过程。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_7",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "完美主义是我工作的最大阻碍。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_8",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "场景：你需要向老板汇报一个复杂的战略计划。老板只给了你 3 分钟时间。你会觉得这 3 分钟根本无法体现出这个计划的精妙之处，因而感到极度沮丧吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_9",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "我能一眼在密集的 Excel 表格中发现异常的数据点。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "thinking_granularity_10",
+      "dimension": "thinking_granularity",
+      "dimensionName": "思维颗粒度",
+      "text": "对于“差不多”、“大概”、“也许”这种模糊词汇，我感到非常反感。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_1",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "买回复杂的新家电，我通常直接插电试用，而不是看说明书。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_2",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "在开始任何新项目前，我必须先看一遍前人的所有调研报告，否则不敢动手。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_3",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "我认为“纸上谈兵”毫无意义，只有在坑里摔过才算真学会。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_4",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "场景：公司引入复杂 AI 决策系统。你更愿意先花时间读懂底层逻辑和算法，再开始处理真实业务吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_5",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "我更信任通过个人经验总结出来的逻辑，胜过书本上的理论。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_6",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "面对新领域，我第一反应是去搜集尽可能多的原始资料进行研读。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_7",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "调研时间超过项目周期的 20% 就是浪费资源。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_8",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "场景：老板要求你明天给出一个从未涉足过的行业的分析简报。你只有今晚的时间。你会选择看 50 篇行业深度文章（理论输入），还是直接打电话访谈 5 个行业内的人（实践获取）？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_9",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "我习惯在脑中建立完整的逻辑闭环后再开始第一步行动。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "information_processing_10",
+      "dimension": "information_processing",
+      "dimensionName": "信息处理",
+      "text": "面对突发的技术难题，我享受那种即兴发挥、临场拆解的快感。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_1",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "如果数据证明一个方案可行，哪怕我心里觉得不对劲，我也会执行。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_2",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "我能敏锐地察觉到会议室里气压的变化，并据此调整我的发言策略。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_3",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "所谓“商业直觉”本质上就是运气，我只相信逻辑推导。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_4",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "场景：一个老客户的数据都显示明年可能违约，但你凭多年相处直觉认为他只是暂时困难。公司要求断开合作时，你会为了保住这个客户而坚持自己的判断吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_5",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "在职场中展现过多的情绪和同理心是一种不专业的表现。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_6",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "我认为决策中 80% 的信息其实都隐藏在数字之外的人际互动里。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_7",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "直觉通常比冷冰冰的报表更准。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_8",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "场景：你负责招聘一个关键岗位。候选人 A 的各项测试分数极高（逻辑满分）；候选人 B 虽然分数稍逊，但你感觉他的性格和团队的“气场”极其合拍。你更倾向录取 A 还是 B？",
+      "reverse": false,
+      "responseMode": "choiceAB",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_9",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "我在决策时更倾向于使用科学公式或评估模型（如 SWOT）。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "drive_logic_10",
+      "dimension": "drive_logic",
+      "dimensionName": "驱动逻辑",
+      "text": "我擅长讲一个动人的故事来争取支持，而不是摆出一堆枯燥的曲线图。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_1",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "如果一周内看不到明显的进度，我会对这个项目失去兴趣。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_2",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "我更喜欢那种“今天写完代码，明天就能跑通”的即时成就感。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_3",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "我能为了一个 10 年后的远大目标，忍受现在的寂寞和枯燥。",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_4",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "场景：一类研究每周都能看到产品改进，另一类基础研究可能连续 5 年才有一篇论文。你更愿意选择后者这种长期沉淀、等待重大突破的方向吗？",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_5",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "我受不了那种流程极其冗长、审批需要半个月的公司。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_6",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "我习惯于每天给自己列一个清单，每勾掉一项都让我感到快乐。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_7",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "只要最后结果是好的，中间等多久都没关系。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_8",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "场景：你负责一个为期两年的大型基建项目。前 18 个月几乎全是处理杂事和打地基，看不到任何成果产出。在这种“长期无反馈”的环境下，你是否会产生严重的自我怀疑？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_9",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "我更倾向于按日或按周结算提成，而不是年终一次性大额分成。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "feedback_cycle_10",
+      "dimension": "feedback_cycle",
+      "dimensionName": "反馈周期",
+      "text": "慢工出细活对我来说是一种折磨，我更信奉“天下武功唯快不破”。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_1",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "我无法忍受在一个连固定工位都没有的公司上班。",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_2",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "如果我的办公桌堆满了杂物，我的思维会变得极其混乱，无法开始工作。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_3",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "我非常享受在咖啡馆、高铁或不同城市的移动中处理公务的感觉。",
+      "reverse": true,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_4",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "场景：公司推行共享工位，每天先到先得，你可能每天坐在不同位置，下班还要清空桌面。这种不稳定感会让你明显焦虑吗？",
+      "reverse": false,
+      "responseMode": "feeling",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_5",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "严格的上下班打卡制度和穿着要求，反而能让我更快进入专业状态。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_6",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "我认为“家”就是休息的地方，在卧室里处理工作会让我产生生理性的厌恶。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_7",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "我不需要明确的层级关系，谁行听谁的，哪怕办公环境很乱也没关系。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_8",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "场景：一份高薪工作要求你长期在野外、工地或非标准办公场所（如临时帐篷）驻扎。虽然设施完备但缺乏城市写字楼的秩序感。你是否会觉得这不像是一份“正经工作”？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_9",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "我喜欢那种高度透明、流程手册厚达百页、凡事皆有章可循的环境。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "environment_dependence_10",
+      "dimension": "environment_dependence",
+      "dimensionName": "环境空间依赖",
+      "text": "如果老板突然取消了周报制度和例行晨会，我会感到失去了对工作的掌控感。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_1",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "只要不违法，为了达成目标，稍微“美化”一下事实是职场常态。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_2",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "如果我知道某个产品有微小的安全隐患但不影响使用，且公司要求隐瞒以保住销量，我会配合。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_3",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "哪怕被开除，我也绝不会在任何违规的报销或合同上签字。",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_4",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "场景：公司面临倒闭，只要在汇报中用合法但有争议的方式掩盖一笔亏损，就可能拿到融资、保住很多人的工作。即使结果看起来是好事，你也会拒绝这种做法吗？",
+      "reverse": true,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_5",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "我认为商业的本质就是利益博弈，过分的道德感会阻碍公司的生存。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_6",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "面对竞争对手，我会利用对方内部的负面信息进行针对性打击，哪怕这显得不太光彩。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_7",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "我无法接受任何形式的“潜规则”，即使那是行业默认的。",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_8",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "场景：你的直属领导对你有提携之恩，但他现在要求你帮他处理一件私人的、略微违背职业操守的小事。拒绝他意味着背叛恩情并葬送前程。你会选择闭上眼睛帮他这一次吗？",
+      "reverse": false,
+      "responseMode": "action",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_9",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "如果为了保护客户隐私需要向监管部门提供模糊的信息，我会倾向于保护客户。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    },
+    {
+      "id": "moral_threshold_10",
+      "dimension": "moral_threshold",
+      "dimensionName": "道德阈值",
+      "text": "只要结果是多赢的，过程中的手段是否完全符合道德规范并不重要。",
+      "reverse": false,
+      "responseMode": "agreement",
+      "source": "问题收集R1.docx"
+    }
+  ]
+}

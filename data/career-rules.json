@@ -1,0 +1,206 @@
+[
+  {
+    "trackName": "增长产品与商业分析",
+    "conditions": [
+      "growth_mode:high",
+      "information_processing:medium",
+      "drive_logic:high"
+    ],
+    "reason": "适合把复杂信息拆成增长机会，用数据和用户反馈持续迭代。",
+    "suitableRoles": [
+      "增长产品经理",
+      "商业分析师",
+      "用户增长运营"
+    ],
+    "entryPath": "先做一个真实产品的增长复盘，再补足 SQL、数据看板和实验设计能力。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "内容策略与品牌策划",
+    "conditions": [
+      "recognition_source:high",
+      "drive_logic:medium",
+      "feedback_cycle:high"
+    ],
+    "reason": "适合在表达、共鸣和传播反馈中获得动力。",
+    "suitableRoles": [
+      "内容策划",
+      "品牌策略",
+      "新媒体主编"
+    ],
+    "entryPath": "沉淀 3 个主题账号案例，验证选题、转化和复盘能力。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "B2B 销售与客户成功",
+    "conditions": [
+      "income_drive:high",
+      "social_energy:high",
+      "recognition_logic:high"
+    ],
+    "reason": "适合高互动、高反馈、结果清晰的商业场景。",
+    "suitableRoles": [
+      "大客户销售",
+      "客户成功经理",
+      "解决方案顾问"
+    ],
+    "entryPath": "从小客单价产品练习需求挖掘和复盘，逐步进入复杂交易。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "研究分析与咨询",
+    "conditions": [
+      "thinking_granularity:high",
+      "information_processing:high",
+      "pressure_rhythm:medium"
+    ],
+    "reason": "适合深度调研、结构化输出和严谨推理。",
+    "suitableRoles": [
+      "行业研究员",
+      "战略咨询顾问",
+      "政策研究"
+    ],
+    "entryPath": "选择一个行业做 30 页研究报告，找业内人士校正判断。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "项目管理与组织推进",
+    "conditions": [
+      "power_execution:medium",
+      "pressure_rhythm:high",
+      "boundary_clarity:medium"
+    ],
+    "reason": "适合把混乱任务拆成节奏、责任和交付。",
+    "suitableRoles": [
+      "项目经理",
+      "运营 PMO",
+      "交付经理"
+    ],
+    "entryPath": "从跨部门小项目开始，练习里程碑、风险台账和复盘。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "专业技术深耕",
+    "conditions": [
+      "growth_mode:high",
+      "thinking_granularity:high",
+      "social_energy:low"
+    ],
+    "reason": "适合在深度专注中累积壁垒。",
+    "suitableRoles": [
+      "软件工程师",
+      "数据工程师",
+      "算法应用工程师"
+    ],
+    "entryPath": "选一个可展示项目，持续迭代 90 天，形成作品集。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "人力组织发展",
+    "conditions": [
+      "recognition_logic:high",
+      "drive_logic:medium",
+      "social_energy:medium"
+    ],
+    "reason": "适合在人成长、团队协作和组织机制中发挥影响。",
+    "suitableRoles": [
+      "HRBP",
+      "组织发展顾问",
+      "培训发展经理"
+    ],
+    "entryPath": "从访谈、诊断和工作坊设计开始积累方法论。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "创业与新业务探索",
+    "conditions": [
+      "income_drive:high",
+      "power_execution:high",
+      "growth_mode:high"
+    ],
+    "reason": "适合在不确定中做判断、承担结果并快速学习。",
+    "suitableRoles": [
+      "创始人助理",
+      "新业务负责人",
+      "创业合伙人"
+    ],
+    "entryPath": "用最小可行产品验证需求，先控制现金流和试错成本。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "财务风控与合规",
+    "conditions": [
+      "moral_threshold:high",
+      "thinking_granularity:high",
+      "information_processing:high"
+    ],
+    "reason": "适合在规则、细节和风险边界中建立专业价值。",
+    "suitableRoles": [
+      "风控经理",
+      "合规专员",
+      "审计"
+    ],
+    "entryPath": "补齐法规框架和案例库，练习风险识别报告。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "空间运营与线下管理",
+    "conditions": [
+      "environment_dependence:high",
+      "power_execution:medium",
+      "social_energy:medium"
+    ],
+    "reason": "适合依托秩序、现场和流程做稳定交付。",
+    "suitableRoles": [
+      "门店运营",
+      "园区运营",
+      "行政运营"
+    ],
+    "entryPath": "从一个线下流程优化项目切入，记录成本、效率和体验指标。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "自由职业与远程服务",
+    "conditions": [
+      "boundary_clarity:high",
+      "environment_dependence:low",
+      "feedback_cycle:high"
+    ],
+    "reason": "适合用清晰边界和快速反馈管理个人产能。",
+    "suitableRoles": [
+      "自由撰稿人",
+      "独立顾问",
+      "远程运营"
+    ],
+    "entryPath": "先用副业订单验证交付节奏，再设计报价和客户筛选标准。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  },
+  {
+    "trackName": "教育培训与知识产品",
+    "conditions": [
+      "growth_mode:high",
+      "recognition_logic:high",
+      "feedback_cycle:medium"
+    ],
+    "reason": "适合把经验结构化，并通过他人成长获得成就感。",
+    "suitableRoles": [
+      "课程研发",
+      "职业讲师",
+      "学习顾问"
+    ],
+    "entryPath": "打磨一个 60 分钟公开课，用反馈优化课程闭环。",
+    "risks": "需要避免只被单一优势吸引，应同步验证收入、节奏和长期成长空间。",
+    "validationMethod": "用 30-90 天低成本项目、访谈或兼职任务做真实验证。"
+  }
+]

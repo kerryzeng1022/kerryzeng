@@ -1,0 +1,342 @@
+[
+  {
+    "id": "combo_1",
+    "name": "深度学习型建构者",
+    "conditions": [
+      "growth_mode:high",
+      "information_processing:high",
+      "thinking_granularity:high"
+    ],
+    "insight": "你适合把复杂知识变成可复用方法，而不是只做零散执行。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_2",
+    "name": "高目标攻坚型",
+    "conditions": [
+      "income_drive:high",
+      "pressure_rhythm:high",
+      "power_execution:high"
+    ],
+    "insight": "高目标会激活你，但需要明确风险底线，避免用持续透支换短期结果。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_3",
+    "name": "关系场域影响者",
+    "conditions": [
+      "social_energy:high",
+      "recognition_logic:high",
+      "drive_logic:high"
+    ],
+    "insight": "你更容易在需要理解人、协调人、说服人的场景中发挥。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_4",
+    "name": "自我管理型交付者",
+    "conditions": [
+      "boundary_clarity:high",
+      "feedback_cycle:high",
+      "environment_dependence:high"
+    ],
+    "insight": "清楚边界和反馈节奏会显著影响你的稳定产出。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_5",
+    "name": "规则风险守门人",
+    "conditions": [
+      "moral_threshold:high",
+      "thinking_granularity:high",
+      "information_processing:high"
+    ],
+    "insight": "你适合在标准、合规和严谨验证中建立专业可信度。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_6",
+    "name": "外部成就驱动者",
+    "conditions": [
+      "recognition_source:high",
+      "income_drive:high",
+      "feedback_cycle:high"
+    ],
+    "insight": "可见成果会推动你前进，但要避免把全部价值感交给外部评价。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_7",
+    "name": "能量节奏敏感型",
+    "conditions": [
+      "social_energy:high",
+      "boundary_clarity:high",
+      "pressure_rhythm:high"
+    ],
+    "insight": "你需要同时管理互动密度、休息边界和任务波峰。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_8",
+    "name": "开创式问题解决者",
+    "conditions": [
+      "power_execution:high",
+      "growth_mode:high",
+      "drive_logic:high"
+    ],
+    "insight": "你适合在模糊目标下找到路径，但需要复盘机制减少试错成本。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_9",
+    "name": "价值边界谈判者",
+    "conditions": [
+      "recognition_logic:high",
+      "moral_threshold:high",
+      "income_drive:high"
+    ],
+    "insight": "高回报机会出现时，你需要提前定义不可交换的职业底线。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_10",
+    "name": "专注空间依赖者",
+    "conditions": [
+      "environment_dependence:high",
+      "social_energy:high",
+      "thinking_granularity:high"
+    ],
+    "insight": "空间和干扰程度会直接影响你的细节质量与决策耐心。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_11",
+    "name": "短周期迭代者",
+    "conditions": [
+      "feedback_cycle:high",
+      "growth_mode:high",
+      "pressure_rhythm:high"
+    ],
+    "insight": "你适合在快速反馈中成长，长期项目需要主动拆阶段成果。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_12",
+    "name": "理性决策推进者",
+    "conditions": [
+      "information_processing:high",
+      "drive_logic:high",
+      "power_execution:high"
+    ],
+    "insight": "你擅长用信息和模型降低不确定性，再推动团队行动。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_13",
+    "name": "高回报边界管理者",
+    "conditions": [
+      "income_drive:high",
+      "boundary_clarity:high",
+      "environment_dependence:high"
+    ],
+    "insight": "你可以追求更高收入，但需要评估工作对生活边界的占用。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_14",
+    "name": "曝光反馈成长者",
+    "conditions": [
+      "recognition_source:high",
+      "social_energy:high",
+      "feedback_cycle:high"
+    ],
+    "insight": "外部反馈能给你动力，内容、销售、培训等场景可重点验证。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_15",
+    "name": "温和原则型",
+    "conditions": [
+      "moral_threshold:high",
+      "recognition_logic:high",
+      "drive_logic:high"
+    ],
+    "insight": "你适合有清晰价值观的团队，面对灰色操作会有明显消耗。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_16",
+    "name": "质量节奏平衡者",
+    "conditions": [
+      "thinking_granularity:high",
+      "feedback_cycle:high",
+      "pressure_rhythm:high"
+    ],
+    "insight": "你要在细节质量和交付速度之间建立自己的标准线。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_17",
+    "name": "授权协作管理者",
+    "conditions": [
+      "power_execution:high",
+      "boundary_clarity:high",
+      "social_energy:high"
+    ],
+    "insight": "明确授权与沟通边界时，你更容易带动多人交付。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_18",
+    "name": "上升通道追求者",
+    "conditions": [
+      "growth_mode:high",
+      "recognition_source:high",
+      "income_drive:high"
+    ],
+    "insight": "你需要能同时满足成长、回报和可见成就的赛道。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_19",
+    "name": "结构化独立工作者",
+    "conditions": [
+      "information_processing:high",
+      "environment_dependence:high",
+      "boundary_clarity:high"
+    ],
+    "insight": "你适合清楚规则和独立思考空间并存的工作方式。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  },
+  {
+    "id": "combo_20",
+    "name": "复杂人事判断者",
+    "conditions": [
+      "drive_logic:high",
+      "recognition_logic:high",
+      "moral_threshold:high"
+    ],
+    "insight": "你在涉及人、情理和边界的决策中需要保留书面依据。",
+    "suitableTracks": [
+      "增长产品与商业分析",
+      "研究分析与咨询",
+      "项目管理与组织推进"
+    ],
+    "risk": "组合优势如果缺少场景验证，可能停留在自我感觉良好。",
+    "suggestion": "挑一个最贴近当前背景的方向，用小项目或访谈验证真实适配度。"
+  }
+]

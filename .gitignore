@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+dist
+.env
+.env.local
+.env.*.local
+reports-store.json
+stats-store.json
+.DS_Store
+npm-debug.log*
+
+# Local Netlify folder
+.netlify
+
+# Local Codex backups and visual QA artifacts
+.codex-backups
+.codex-qa
+
+# Local source documents used during product discovery
+已有资源
