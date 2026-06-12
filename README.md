@@ -6,10 +6,11 @@ Live site: https://jobseek-career-universe.netlify.app
 
 ## Development
 
-- npm install
-- - npm run dev
-  - - npm run lint
-    - - npm run build
-     
-      - Production branch: main
-      - 
+```bash
+npm install
+npm run dev
+npm run lint
+npm run build
+```
+
+Production branch: `main`.
