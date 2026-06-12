@@ -16,6 +16,7 @@ npm-debug.log*
 # Local Codex backups and visual QA artifacts
 .codex-backups
 .codex-qa
+.codex-local
 
 # Local source documents used during product discovery
 已有资源
